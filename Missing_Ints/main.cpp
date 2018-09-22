@@ -15,7 +15,7 @@ inline void _test(const char* expression, const char* file, int line)
 }
 #define test(EXPRESSION) ((EXPRESSION) ? (void)0 : _test(#EXPRESSION, __FILE__, __LINE__))
 
-
+ 
 int main()
 {
     // Setup
@@ -132,6 +132,7 @@ int main()
         o9.tell(i);
     x = y = 0;
     o9.missing_two(x, y);
+    cout << "x: " << x << " y: " << y << endl;
     test(x == 999999);
     test(y == 1000000);
     
@@ -152,6 +153,7 @@ int main()
         o11.tell(i);
     x = y = 0;
     o11.missing_two(x, y);
+    cout << x << "    "  << y << endl;
     test(x == 2);
     test(y == 4);
     

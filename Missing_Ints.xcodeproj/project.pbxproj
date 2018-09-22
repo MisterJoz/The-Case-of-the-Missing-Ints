@@ -45,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				EFC5505321516C8E0069075D /* Missing_Ints */,
-				EFC5505221516C8E0069075D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +54,7 @@
 				EFC5505121516C8E0069075D /* Missing_Ints */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		EFC5505321516C8E0069075D /* Missing_Ints */ = {
@@ -63,6 +63,7 @@
 				EFC5505421516C8E0069075D /* main.cpp */,
 				EFC5505B21516CC00069075D /* oracle.h */,
 				EFC5505C21516CCB0069075D /* oracle.cpp */,
+				EFC5505221516C8E0069075D /* Products */,
 			);
 			path = Missing_Ints;
 			sourceTree = "<group>";
